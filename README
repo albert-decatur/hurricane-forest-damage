@@ -1,0 +1,33 @@
+Hurricane Forest Damage
+
+Estimate forest damage due to major storms worldwide between 2002-2010 using MODIS EVI 16 day composites before and after storms.
+By Albert Decatur and Esteban Rossi.
+
+Work can be found here
+GitHub read-only HTTP: git://github.com/albert-decatur/hurricane-forest-damage.git
+
+
+Scripts:
+
+get_modis.sh - download appropriate MODIS tiles given storm tracks and forest layer
+rprocess_modis.sh - GRASS GIS module to perform post-processing on MODIS tiles
+
+
+Data sources:
+
+Storm tracks
+	IBTrACS-All 
+	ftp://eclipse.ncdc.noaa.gov/pub/ibtracs/v03r04/all/shp/
+
+MODIS Sinusoidal grid tiles
+	Description
+	http://gis.fem-environment.eu/modis-sinusoidal-gis-files/
+	Download
+	http://gis.cri.fmach.it/data/modis_sinusoidal.zip
+
+MODIS forest cover
+	MCD12Q1 V051 2006 500m spatial resolution
+	Description
+	https://lpdaac.usgs.gov/products/modis_products_table/mcd12q1
+	Download
+	ftp://e4ftl01.cr.usgs.gov/MOTA/MCD12Q1.051/2006.01.01/
