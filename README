@@ -17,17 +17,39 @@ Data sources:
 
 Storm tracks
 	IBTrACS-All 
+	
+	Description
+	http://www.ncdc.noaa.gov/oa/ibtracs/index.php?name=ibtracs-data
+	
+	Download
 	ftp://eclipse.ncdc.noaa.gov/pub/ibtracs/v03r04/all/shp/
+	
+	MD5SUM
+	7928d21bb8b5ace466bad5194ff1c4c5  Allstorms.ibtracs_all_lines.v03r04.dbf
+	c742bee3d4edfc2948a2ad08de1790a5  Allstorms.ibtracs_all_lines.v03r04.prj
+	df254d47c67f9d7053abdb715cfd5b2b  Allstorms.ibtracs_all_lines.v03r04.shp
+	b99835ae0935027b4dcb7960e08ce048  Allstorms.ibtracs_all_lines.v03r04.shx
 
 MODIS Sinusoidal grid tiles
 	Description
 	http://gis.fem-environment.eu/modis-sinusoidal-gis-files/
+
 	Download
 	http://gis.cri.fmach.it/data/modis_sinusoidal.zip
 
-MODIS forest cover
-	MCD12Q1 V051 2006 500m spatial resolution
+	MD5SUM
+	a26d1bb7bcb803743d6821555c9a6d82  modis_sinusoidal.zip
+
+MODIS land cover
+	MCD12C1.051, 2006, 0.05° spatial resolution
+
 	Description
-	https://lpdaac.usgs.gov/products/modis_products_table/mcd12q1
+	https://lpdaac.usgs.gov/products/modis_products_table/mcd12c1
+
 	Download
-	ftp://e4ftl01.cr.usgs.gov/MOTA/MCD12Q1.051/2006.01.01/
+	ftp://e4ftl01.cr.usgs.gov/MOTA/MCD12C1.051/2006.01.01/
+	
+	MD5SUM
+	7e4c6b308738eba14529c593e7cab88c  MCD12C1.A2006001.051.2012264185657.hdf
+	06aa46fd29e193cb69e363e102d61f86  MCD12C1.A2006001.051.2012264185657.hdf.xml
+

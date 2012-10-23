@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#TODO: to get all MODIS grids around a buffered track, use the dates from before the earliest in the track, and after the latest.
+
 usage()
 {
 cat << EOF
